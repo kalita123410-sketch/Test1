@@ -11,6 +11,7 @@ import Services from './components/Services';
 import Activities from './components/Activities';
 import News from './components/News';
 import Footer from './components/Footer';
+import WiFiAd from './components/WiFiAd';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('beranda');
@@ -60,6 +61,7 @@ function App() {
               </div>
             </div>
             <News />
+            <WiFiAd />
           </>
         );
       case 'profil-rt':
