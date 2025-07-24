@@ -114,28 +114,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Statistics */}
-        <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div>
-              <div className="text-2xl font-bold text-green-500">127</div>
-              <div className="text-sm text-gray-400">Total KK</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-blue-500">8</div>
-              <div className="text-sm text-gray-400">Kegiatan/Bulan</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-purple-500">94%</div>
-              <div className="text-sm text-gray-400">Partisipasi</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-yellow-500">12</div>
-              <div className="text-sm text-gray-400">Pengumuman</div>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-gray-400 mb-4 md:mb-0">
