@@ -25,10 +25,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto px-4 py-8">
               <Announcements />
               <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-pink-600 text-lg">♥</span>
-                  </div>
+                <div className="mb-4">
                   <h3 className="text-xl font-semibold text-gray-800">Kegiatan Mendatang</h3>
                 </div>
                 <div className="space-y-4">
